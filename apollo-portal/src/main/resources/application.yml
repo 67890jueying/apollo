@@ -17,7 +17,8 @@ spring:
   application:
     name: apollo-portal
   profiles:
-    active: ${apollo_profile}
+#    active: ${apollo_profile}
+    active: github
   jpa:
     properties:
       hibernate:
